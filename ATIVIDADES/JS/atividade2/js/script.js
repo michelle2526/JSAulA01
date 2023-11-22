@@ -1,7 +1,7 @@
 
 var numero =  number (prompt("Digite o seu primeiro numero"));
 
-var ant = nuemro -1;
+var ant = numero -1;
 var suc =  numero +1;
 
 
