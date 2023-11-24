@@ -1,13 +1,11 @@
  //atividade01 FILMES
 
 var filmes = ["veloresFuriosos","grimm","ursoPooh","BatesMotel","spiderMan","HACKER"];
- console.log(filmes);
+ filmes.forEach((cadafilme) =>{
+   console.log(cadafilme);
+ });
+  //for(var contador = 0; contador <= filmes.length;contador++);
+ //console.log(filmes[contador]);
 
- // ATIVIDADE02 TABUADA
+ 
 
- var contador= 0;
- while ( contador <= 10){
-    console.log(contador);
-    contador = contador ++;
-
-}
