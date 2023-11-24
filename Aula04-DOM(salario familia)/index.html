@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SaláRIO familia</title>
+    <link rel="stylesheet" href="../Aula04-DOM(salario familia)/style.css">
+</head>
+<body>
+    <div id="page">
+        <main>
+         <img src="../Aula04-DOM(salario familia)/images/salario-familia.jpg" alt="">
+         <form action="" method="post">
+         <div class="formGroup">
+         <input type="text" id="empregado" placeholder="empregado">
+         <input type="number" id="filhos" placeholder="quantidade de filhos menosres que 14 anos ou invalidos">
+         <input type="number" id="salarios" placeholder=" Salario contribuição">
+        </div>
+        <div class="formGroup">
+            <table>
+                <tr>
+                    <th>Salario contribuiçao</th>
+                    <th> cota do salario familia</th>
+                </tr>
+                <tr>
+                    <td> ate R$ 860.60</td>
+                    <td> R$ 41.37 por filho</td>
+                </tr>
+                <tr>
+                    <td>entre R$ 806.81 e R$ 1.212.64</td>
+                    <td> R$ 29.16 por filhos</td>
+                </tr>
+                <tr>
+                    <td> mais de R$1.212.64</td>
+                    <td> nao há</td>
+                </tr>
+            </table>
+            <div class="formGroup">
+                <button id="btnCalcular" type="button">calcular</button>
+            </div>
+        </div>
+        <div class="formGroup">
+        <span id="resultado">Resultado do Calculo</span>
+        </div>
+         </form>
+        </main>
+    </div>
+    <script src="../Aula04-DOM(salario familia)/JS/script.js"></script>
+</body>
+</html>
