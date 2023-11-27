@@ -22,3 +22,7 @@ class Aluno {
 
     var aluno1 = new Aluno( "leandro",25,curso1);
     var aluno2 = new Aluno( "alice",25, curso2);
+
+
+
+    // Atributo privativo = apenas o objeto em si podera mudar seus valores.nao aceitando uma reatribuiçao fora de seu objeto.
