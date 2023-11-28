@@ -4,10 +4,37 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="../atividade/styles.css">
+    <title>Atividade carro</title>
+    <STyle>
+        .post{
+            width: 200px;
+            margin: 10px;
+            padding: 10px;
+            border-radius: 10px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            background-color: rgb(219, 129, 129);
+        }
+    </STyle>
 </head>
 <body>
+ <h1>Crie seu carro!</h1>
+ <form >
+     <input type="text " id="marca" placeholder="marca">
+     <input type="text" id="modelo" placeholder="modelo">
+     <input type="number" id="data" placeholder="data">
+     <input type="color" id="cor" placeholder="cor">
+     <input type="number" id="velocidademax" placeholder="velocidademax">
+      <button type="button" id="btnCarro"> criar carro</button>
+ </form>
+
+  <div id="resposta"></div>
+
+
+
+
+
     <script src="../atividade/script.js"></script>
 </body>
 </html>
