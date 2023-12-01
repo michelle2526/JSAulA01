@@ -26,25 +26,25 @@ console.log(frase.replaceAll("mundo","bacana"));
 
  //INDEX OF
 
- var FRUTAS = ['Morango','Banana','Laranja','Uva']
+//  var FRUTAS = ['Morango','Banana','Laranja','Uva']
 
- console.log(FRUTAS.includes("Morango")); // includes thue e false
- console.log(FRUTAS.indexOf("Morango")); // index of vlor do index do array(caso nao exista,-1)
+//  console.log(FRUTAS.includes("Morango")); // includes thue e false
+//  console.log(FRUTAS.indexOf("Morango")); // index of vlor do index do array(caso nao exista,-1)
 
- if(FRUTAS.indexOf("Abacaxi"== 1)){
-     console.log("nao achei")
- }
+//  if(FRUTAS.indexOf("Abacaxi"== 1)){
+//      console.log("nao achei")
+//  }
 
 
 
  // SET TIMEOUT
 
  function msg(){
-    return new Promise ((teste) => {
+    return new Promise ((resolve) => {
         setTimeout(() => {
             console.log("seja Bem-vindo!");
-        },2000);
-        teste()
+        },5000);
+        resolve()
         
     } )
    
