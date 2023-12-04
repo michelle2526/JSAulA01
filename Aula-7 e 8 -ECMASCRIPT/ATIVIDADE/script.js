@@ -1,15 +1,16 @@
-const jogos ={
-    freeFire,
-    Minecraf,
-    Fortnite,
-}
+// const verificarPromise = new Promise(( resolve,reject) => {
+//     let nome = "ADM";
+//     let senha ="ADM";
 
-const jogosKey = Object.keys(jogos);
-   var pesquisa = prompt("insira o jogo")
-   var processo = jogosKey.indexOf(pesquisa);
-  
-  if (processo == -1){
-    alert ("jogo nao encontrado");
-   } else{
-     alert(`jogo encontrado ${pesquisa} da nossa lista`);
-   };
+//     if( nome == "ADM" && senha == "ADM"){
+//         resolve (" seja  bem vindo administrador!");
+
+//     }else{
+//         reject("o usuario nao e ADM! faça o login de maneira alternativa!");
+//     }
+// });
+// verificarPromise. then((x) =>{
+//     console.log(x)
+// })
+
+
