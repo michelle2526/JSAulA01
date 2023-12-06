@@ -1,0 +1,5 @@
+header{
+    display: flex;
+    justify-items: center;
+    background-color: rgb(105, 191, 206);
+}
